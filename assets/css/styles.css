@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+/* LADO IZQUIERDO ASIDE <--------------------------------------------- */
+.aside {
+  width: 20%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px grey;
+}
+
+/* MARIA */
+
+.maria {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+  border-bottom: 1px solid grey;
+}
+
+.mariainfo {
+  display: flex;
+}
+
+.mariainfo img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.spanmaria {
+  color: grey;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+/* MARIA ICONOS  */
+
+.mariaicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mariaicons i {
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* BOTON-------------------------------------------- */
+
+.custombutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.custombutton button {
+  margin: 40px;
+  background-color: #a491d2;
+  border: none;
+  color: white;
+  width: 80%;
+  padding: 15px 55px;
+  font-size: 15px;
+}
+
+.custombutton button:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+
+/* NPCS----------------------------------------------------> */
+
+.hnpc {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+  border-bottom: 1px solid grey;
+}
+
+.hnpc img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.hnpc h4 {
+  font-weight: 400;
+}
+
+.spannpc {
+  font-weight: 300;
+  color: black;
+}
+
+/* LADO DERECHO MAIN---------------------------------------> */
+
+.main {
+  width: 80%;
+  background-color: #ebe4ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+.main h4 {
+  font-size: 45px;
+}
+
+span {
+  font-weight: bolder;
+}
